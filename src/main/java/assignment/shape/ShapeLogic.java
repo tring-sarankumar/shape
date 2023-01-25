@@ -2,8 +2,11 @@ package assignment.shape;
 
 public class ShapeLogic {
     String type;
-    float trilength1, trilength2, trilength3;
-    float rectanglelength,rectanglewidth;
+    float trilength1;
+    float trilength2; 
+    float trilength3;
+    float rectanglelength;
+    float rectanglewidth;
     float circleradius;
 
     ShapeLogic(String type,float circleradius){
