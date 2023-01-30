@@ -40,7 +40,7 @@ public class ShapeLogic {
             peri=2 * 3.14f * circleradius;
 
         }
-        log.info("The Perimeter is "+peri);
+        log.fine("The Perimeter is {}",peri);
     }
 
     void area(){
@@ -54,7 +54,7 @@ public class ShapeLogic {
         else if ("circle".equalsIgnoreCase(type)){
             shapearea=3.14f * circleradius * circleradius;
         }
-        log.info("The Perimeter is "+shapearea);
+        log.fine("The Perimeter is {}",shapearea);
     }
     
 }
